@@ -11,4 +11,3 @@ before_script:
 
 script:
   - sudo ./build-linux.sh
-  - sudo ./test-linux.sh
