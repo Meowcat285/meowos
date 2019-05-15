@@ -9,4 +9,9 @@ jobs:
 
       - run:
           name: Build N Test
-          command: 
+          command: apt-get update
+          command: apt-get install sudo nasm
+          command: chmod +x build-linux.sh
+          command: chmod +x test-linux.sh
+          command: sudo ./build-linux.sh
+          command: sudo ./test-linux.sh
