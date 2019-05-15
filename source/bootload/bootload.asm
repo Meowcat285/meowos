@@ -1,5 +1,5 @@
 ; ==================================================================
-; The Mike Operating System bootloader
+; The MeowOS Operating System bootloader
 ; Copyright (C) 2006 - 2019 MikeOS Developers -- see doc/LICENSE.TXT
 ;
 ; Based on a free boot loader by E Dehling. It scans the FAT12

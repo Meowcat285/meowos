@@ -1,5 +1,5 @@
 ; ==================================================================
-; MikeOS -- The Mike Operating System kernel
+; MeowOS -- The Mike Operating System kernel
 ; Copyright (C) 2006 - 2019 MikeOS Developers -- see doc/LICENSE.TXT
 ;
 ; BASIC CODE INTERPRETER (4.5)
