@@ -1,5 +1,5 @@
 ; ==================================================================
-; MikeOS -- The Mike Operating System kernel
+; MeowOS -- The MeowOS Operating System kernel
 ; Copyright (C) 2006 - 2019 MikeOS Developers -- see doc/LICENSE.TXT
 ;
 ; This is loaded from the drive by BOOTLOAD.BIN, as KERNEL.BIN.
@@ -11,7 +11,7 @@
 
 	BITS 16
 
-	%DEFINE MIKEOS_VER '4.6.1'	; OS version number
+	%DEFINE MIKEOS_VER '0.0.1'	; OS version number
 	%DEFINE MIKEOS_API_VER 17	; API version for programs to check
 
 
@@ -198,10 +198,10 @@ option_screen:
 
 	; Data for the above code...
 
-	os_init_msg		db 'Welcome to MikeOS', 0
+	os_init_msg		db 'Welcome to MeowOS', 0
 	os_version_msg		db 'Version ', MIKEOS_VER, 0
 
-	dialog_string_1		db 'Thanks for trying out MikeOS!', 0
+	dialog_string_1		db 'Thanks for trying out MeowOS!', 0
 	dialog_string_2		db 'Please select an interface: OK for the', 0
 	dialog_string_3		db 'program menu, Cancel for command line.', 0
 
