@@ -1,0 +1,14 @@
+language: bash
+
+git:
+  depth: 5
+
+before_script:
+  - sudo apt-get update
+  - sudo apt-get install nasm
+  - chmod +x build-linux.sh
+  - chmod +x test-linux.sh
+
+script:
+  - sudo ./build-linux.sh
+  - sudo ./test-linux.sh
