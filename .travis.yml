@@ -5,7 +5,7 @@ git:
 
 before_script:
   - sudo apt-get update
-  - sudo apt-get install nasm
+  - sudo apt-get install nasm mkisofs qemu-system-i386
   - chmod +x build-linux.sh
   - chmod +x test-linux.sh
 
